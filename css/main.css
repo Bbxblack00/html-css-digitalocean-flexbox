@@ -4,13 +4,41 @@
   box-sizing: border-box;
 }
 
+div{
+  display: flex;
+}
+
+.grid-list {
+  justify-content: space-between;
+  width: 80%;
+  margin: 10px auto;
+  flex-wrap: wrap;
+}
 
 /* regole jt */
 #jt {
+  background-image: url("../img/jumbo.svg");
+}
+
+.title{
+  display: inline-block;
+}
+
+#jt h1, #jt p {
+  display: inline-block;
+}
+
+
+/* regole seamlessy */
+#seamlessly {
   background-color: lightgray;
 }
 
-.grid {
-  display: flex;
-  justify-content: space-between;
+.center{
+  justify-content: center;
+  margin: 20px auto 10px;
+}
+
+.softlink {
+  text-decoration: none;
 }
