@@ -3,3 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+
+/* regole jt */
+#jt {
+  background-color: lightgray;
+}
+
+.grid {
+  display: flex;
+  justify-content: space-between;
+}
