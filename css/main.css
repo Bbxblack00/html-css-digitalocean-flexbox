@@ -22,6 +22,11 @@ div{
 
 .title{
   display: inline-block;
+  flex-grow: 2;
+}
+
+.iscrizione {
+  flex-grow: 1;
 }
 
 #jt h1, #jt p {
