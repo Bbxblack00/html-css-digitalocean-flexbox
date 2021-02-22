@@ -8,16 +8,25 @@ div{
   display: flex;
 }
 
-.grid-list {
-  justify-content: space-between;
-  width: 80%;
-  margin: 10px auto;
-  flex-wrap: wrap;
+.center{
+  justify-content: center;
+  margin: 20px auto 10px;
 }
+
+.softlink {
+  text-decoration: none;
+}
+
+
 
 /* regole jt */
 #jt {
   background-image: url("../img/jumbo.svg");
+}
+
+.jumbo {
+  display: flex;
+  flex-direction: column;
 }
 
 .title{
@@ -39,11 +48,9 @@ div{
   background-color: lightgray;
 }
 
-.center{
-  justify-content: center;
-  margin: 20px auto 10px;
-}
-
-.softlink {
-  text-decoration: none;
+.grid-list {
+  justify-content: space-between;
+  width: 80%;
+  margin: 10px auto;
+  flex-wrap: wrap;
 }
