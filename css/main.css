@@ -43,8 +43,8 @@ div{
 }
 
 
-/* regole seamlessy */
-#seamlessly {
+/* regole businesses */
+#businesses {
   background-color: lightgray;
 }
 
@@ -53,4 +53,13 @@ div{
   width: 80%;
   margin: 10px auto;
   flex-wrap: wrap;
+}
+
+/* regole seamlessly */
+#seamlessly {
+  display: flex;
+}
+
+#seamlessly .row.titolo {
+  text-align: center;
 }
